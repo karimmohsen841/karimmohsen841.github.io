@@ -2,7 +2,10 @@
 	font-family: 'Lulo';
 	src: url("./font/Lulo\ Clean\ W01\ One\ Bold.ttf") format("truetype")
 }
-
+@font-face {
+	font-family: 'Papyrus';
+	src: url("./font/papyrus.ttf") format("truetype")
+}
 @layer demo {
   .arlicino{margin-right: 130px;}
     .compare {
@@ -88,7 +91,7 @@
 
 .text-focus-in{
     font-size: 70px;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Papyrus;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -108,7 +111,7 @@
 }
 .COM{
   color: white;
-  font-family:Copperplate, Papyrus, fantasy;
+  font-family:Papyrus;
   margin-top: 160px;
   margin-left:135px ;
   font-size: 35px;}
@@ -275,7 +278,7 @@
 }
 .parg{color:white;
 font-weight:bold;
-  font-family: Copperplate, Papyrus, fantasy;
+  font-family: Papyrus;
 font-size:30px;
   position:absolute;
   bottom:200PX;
@@ -289,7 +292,7 @@ margin-left:-120px;
 }
 .titre{color:white;
 font-weight:bold;
-  font-family: Copperplate, Papyrus, fantasy;
+  font-family: Papyrus;
   font-size:50px;
   position:absolute;
   top:20PX;
